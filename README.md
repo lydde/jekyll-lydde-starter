@@ -1,6 +1,6 @@
-# Lydde Group - Mimimal Site based on Boostrap 5.3 Theme for Jekyll
+# Lydde Group - Starter Site
 
-Theme for all Lydde Group GitHub Sites based on Jekyll & Bootstrap 5.3.0
+Starter site made for LYDDE Theme - https://theme.lydde.com
 
 We start creating this approach for sustainability. 
 

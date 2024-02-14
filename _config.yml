@@ -14,9 +14,39 @@
 #
 # Theme
 #
-# Theme can be used from GEM Package or from GitHub Repos
-# Default and recommanded usage is to rely on GitHub, to get latest version, even unpublished on GEM
-# If you rely on GEM, uncomment theme and comment remote_theme
-#
-# theme: jekyll-theme-lydde
 remote_theme: lydde/jekyll-lydde-theme
+
+#
+# Hosting
+#
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /news/:categories/:title # the subpath of your posts, e.g. /news
+
+#
+# Plugins
+#
+plugins:
+  - jekyll-relative-links   #https://github.com/benbalter/jekyll-relative-links
+  - jekyll-github-metadata  #https://github.com/jekyll/github-metadata
+  - jekyll-redirect-from    #https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-remote-theme     #https://github.com/benbalter/jekyll-remote-theme
+
+#
+# Files excluded
+#
+exclude:
+  - readme.md
+  - LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - "*.gem"
+  - "*.gemspec"
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

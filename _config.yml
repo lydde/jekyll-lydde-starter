@@ -1,0 +1,22 @@
+#
+# Welcome to LYDDE Group Website system
+# Version : 1.0.0
+#
+# This site is a bootstrap 5.3 theme for Jekyll engine
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that.
+# Others settings are in /_settings/
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+
+#
+# Theme
+#
+# Theme can be used from GEM Package or from GitHub Repos
+# Default and recommanded usage is to rely on GitHub, to get latest version, even unpublished on GEM
+# If you rely on GEM, uncomment theme and comment remote_theme
+#
+# theme: jekyll-theme-lydde
+remote_theme: lydde/jekyll-lydde-theme

@@ -66,55 +66,42 @@ authors:
   # Change to your website
   # It will be used in posts
     site: https://lydde.com
-  
+
 #
 # Brand
 #
 # These are used to marketize your brand. If you look in the HTML files,
 # you will see them in the header and the NavMenu.
 #
-#logo: "/assets/logo.png" # if not set, default theme logo will be applied
-#favicon: "assets/icons/favicon.ico" # if not set, default theme icon will be applied
+logo: "/assets/logo.png" # if not set, default theme logo will be applied
+favicon: "assets/icons/favicon.ico" # if not set, default theme icon will be applied
 
 #
-# Collections
+# SEO & Analytics
 #
-collections:
-  categories:
-    output: false
-  tags:
-    output: false
-  pages:
-    output: false
-  authors:
-    output: false
-    
+# These are used to manage SEO for your websites
+settings:
+  webmaster:
+    analytics:
+      google: XXXX
+  theme:
+    color:
+      primary: "#6f42c1"
+      secondary: "#000000"
+      background: "#000000"
+      text: "#111"
 #
 # Defaults values
 #
 defaults:
 # all posts
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "_posts" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
       image: /assets/images/post.jpeg
-      author: author-1
-# all categories
-  - scope:
-      path: ""
-      type: categories
-    values:
-      layout: page
-      image: /assets/images/page.jpeg
-# all tags
-  - scope:
-      path: ""
-      type: tags
-    values:
-      layout: page
-      image: /assets/images/page.jpeg
+      author: default
 # all pages
   - scope:
       path: ""
